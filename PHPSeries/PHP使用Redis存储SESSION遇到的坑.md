@@ -1,13 +1,13 @@
 ## 背景概述
 
-> 改造公司的基于 TP3.2 做的项目，构想基于 Redis 做分布式 Session 分享
+> 改造公司的基于 TP3.2 做的项目，构想基于 Redis 做分布式 Session 分享
 
 - thinkphp 3.2
  
 ## 配置过程
 
 ```
-# 将下载的 Redis.class.php 放置到 /ThinkPHP/Library/Think/Session/Driver 下
+# 将下载的 Redis.class.php 放置到 /ThinkPHP/Library/Think/Session/Driver 下
 
 # db.php 中 Redis Session配置
 'SESSION_AUTO_START' => true,           // 是否自动开启Session
@@ -32,6 +32,6 @@ session_set_save_handler(
     array(&$hander,"gc")
 ); 
 
-# 最终排除得到的结论是 如果 Redis.class.php 绑定的 read（） 返回的是非 String 值时不能 write session 值，处理一下即可
+# 最终排除得到的结论是 如果 Redis.class.php 绑定的 read（） 返回的是非 String 值时不能 write session 值，处理一下即可
 ```
 
