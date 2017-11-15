@@ -1,4 +1,4 @@
-## vagrant
+## Vagrant
 
 Vagrant 是一款用来构建虚拟开发环境的工具，非常适合 php/python/ruby/java 这类语言开发 web 应用，“代码在我机子上运行没有问题”这种说辞将成为历史。
 
