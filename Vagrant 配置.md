@@ -31,7 +31,7 @@ vagrant box add {title} {box_path}
 # 实例化一个镜像
 vagrant init {title}
 
-# 修改 Vagrantfile 为 public 网络 【简单理解为在路由中可分配到何物理机同级的ip】
+# 修改 Vagrantfile 为 public 网络 【简单理解为在路由中可分配到何物理机同级的ip】
 config.vm.network "public_network", ip: "192.168.56.80"
 
 # 私有网络，在物理机内组成内网，虚拟机可以访问公网和局域网，但局域网和公网无法直接访问虚拟机网
@@ -47,7 +47,7 @@ vagrant up
 vagrant ssh
 
 # 注意：
-# 可以使用 shell 工具连接
+# 可以使用 shell 工具连接
 # 主机/端口 : localhost:2222
 # 账户/密码 : vagrant/vagrant
 
