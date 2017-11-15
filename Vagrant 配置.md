@@ -1,8 +1,11 @@
-## Vagrant
+## Vagrant 简介
 
 Vagrant 是一款用来构建虚拟开发环境的工具，非常适合 php/python/ruby/java 这类语言开发 web 应用，“代码在我机子上运行没有问题”这种说辞将成为历史。
 
 我们可以通过 Vagrant 封装一个 Linux 的开发环境，分发给团队成员。成员可以在自己喜欢的桌面系统（Mac/Windows/Linux）上开发程序，代码却能统一在封装好的环境里运行，非常霸气。
+
+## 环境
+Mac OSX 10.13
 
 ## 准备
 |软件|版本|下载地址|
@@ -11,9 +14,6 @@ Vagrant 是一款用来构建虚拟开发环境的工具，非常适合 php/pyth
 |VirtualBox| 5.1.18 r114002|[官网](https://www.virtualbox.org/wiki/Downloads)|
 |precise64.box|-|[下载地址](http://files.vagrantup.com/precise64.box)|
 |各种box||[Official Site](http://www.vagrantbox.es/)|
-
-## 环境
-Mac OSX 10.13
 
 ## 过程
 1. 首先安装 vagrant 和 virtualBox, 常规步骤安装即可。
