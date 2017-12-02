@@ -1,8 +1,9 @@
 #!/bin/bash
+read -p "输入备注：" message
 echo ===== 添加到仓库 =====
 git add .
 echo ===== 提交到仓库 =====
-git commit -m "add some thing"
+git commit -m $message
 echo ===== 推送到远程 =====
 git push origin master
 
