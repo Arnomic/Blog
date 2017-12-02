@@ -1,4 +1,5 @@
 #!/bin/bash
+# 自动提交脚本
 read -p "输入备注：" message
 echo ===== 添加到仓库 =====
 git add .
