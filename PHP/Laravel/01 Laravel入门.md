@@ -1,0 +1,10 @@
+- app
+- bootstrap
+- database
+- config
+- public
+- resource
+- storage
+- routes
+- vendor
+- tests
