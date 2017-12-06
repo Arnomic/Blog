@@ -1,0 +1,16 @@
+{
+    "name": "dingzhu/design-pattern",
+    "authors": [
+        {
+            "name": "Arnomic",
+            "email": "syrg2015@gmail.com"
+        }
+    ],
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
