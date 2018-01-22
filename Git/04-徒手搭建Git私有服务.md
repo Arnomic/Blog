@@ -63,7 +63,7 @@ Host vagrant
     PreferredAuthentications publickey
     IdentityFile /Users/ddd/.ssh/vagrant/id_rsa
 # 以上每添加一个Host就是一个秘钥配置, 你可以针对性对不同domain配置不同秘钥
-# 或者同一个domain配置不同Host从而分别用不同服务, Host可以理解为HostName(也就是IP)的别名
+# 或者同一个domain配置不同Host从而分别用不同秘钥, Host可以理解为HostName(也就是IP)的别名
 # 添加完后就可以使用 ssh -T git@vagrant 这种形式替代 git@192.168.80.80 姿势来登录
 # 如果出现错误的, 根据提示自行百度一下
 ```
