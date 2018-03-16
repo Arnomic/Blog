@@ -1,6 +1,8 @@
 <?php
 namespace SimpleFactory;
-
+/**
+ * 简单工厂模式
+ */
 interface Animal{
     public function etc($food);
 }
